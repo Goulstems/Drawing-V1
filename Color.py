@@ -15,7 +15,6 @@ class Color:
         turtle.setheading(dir)
         turtle.pencolor(getColor(self.RGB))
         turtle.forward(dist)
-        time.sleep(1)
     def PAINTCIRCLE(self):
         turtle.pencolor(getColor(self.RGB))
         turtle.circle(80)
